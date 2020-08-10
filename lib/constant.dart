@@ -36,7 +36,7 @@ Color basicColor =Colors.pink;
 
 List<BottomNavigationBarItem> bottomNavigationBarItem = [
   BottomNavigationBarItem(
-    icon: Icon(Icons.more_horiz
+    icon: Icon(Icons.line_weight
      
     ),
     title: Text(
@@ -84,63 +84,12 @@ List<BottomNavigationBarItem> bottomNavigationBarItem = [
   ),
 ];
 
-List<BottomNavyBarItem> itemsBottomNavyBar=[
-  BottomNavyBarItem(
-
-    icon: Icon(
-      Icons.mode_edit,
-      color: basicColor,
-    ),
-    title: Text(
-      'Length',
-      style: TextStyle(
-        color:basicColor,
-      ),
-    ),
-  ),
-  BottomNavyBarItem(
-    icon: Icon(
-      Icons.fitness_center,
-      color: basicColor,
-    ),
-    title: Text(
-      'weight',
-      style: TextStyle(
-        color: basicColor,
-      ),
-    ),
-  ),
-  BottomNavyBarItem(
-    icon: Icon(
-      Icons.access_time,
-      color: basicColor,
-    ),
-    title: Text(
-      'time',
-      style: TextStyle(
-        color:basicColor,
-      ),
-    ),
-  ),
- BottomNavyBarItem(
-    icon: Icon(
-      Icons.account_balance,
-      color: basicColor,
-    ),
-    title: Text(
-      'currency',
-      style: TextStyle(
-        color: basicColor,
-      ),
-    ),
-  ),
-];
 
 
 List<TabItem> items = [
 TabItem(
 icon: Icon(
-FontAwesomeIcons.rulerVertical,
+FontAwesomeIcons.line,
 color: basicColor,
 ),
 title:
