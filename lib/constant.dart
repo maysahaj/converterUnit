@@ -89,16 +89,17 @@ List<BottomNavigationBarItem> bottomNavigationBarItem = [
 List<TabItem> items = [
 TabItem(
 icon: Icon(
-FontAwesomeIcons.line,
+Icons.receipt,
 color: basicColor,
 ),
 title:
 'Length',
 
+
 ),
 TabItem(
 icon: Icon(
-Icons.fitness_center,
+Icons.line_weight,
 color: basicColor,
 ),
 title:
@@ -107,7 +108,7 @@ title:
 ),
 TabItem(
 icon: Icon(
-Icons.cloud_circle,
+Icons.timer,
 color: basicColor,
 ),
 title:
