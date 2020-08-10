@@ -32,7 +32,7 @@ Map timeMap = {
 };
 
 
-Color mainColor =Colors.pink;
+Color basicColor =Colors.pink;
 
 List<BottomNavigationBarItem> bottomNavigationBarItem = [
   BottomNavigationBarItem(
@@ -42,43 +42,43 @@ List<BottomNavigationBarItem> bottomNavigationBarItem = [
     title: Text(
       'Length',
       style: TextStyle(
-        color:mainColor,
+        color:basicColor,
       ),
     ),
   ),
   BottomNavigationBarItem(
     icon: Icon(
-      Icons.fitness_center,
-      color: mainColor,
+      Icons.line_weight,
+      color: basicColor,
     ),
     title: Text(
       'weight',
       style: TextStyle(
-        color: mainColor,
+        color: basicColor,
       ),
     ),
   ),
   BottomNavigationBarItem(
     icon: Icon(
       Icons.access_time,
-      color: mainColor,
+      color: basicColor,
     ),
     title: Text(
       'time',
       style: TextStyle(
-        color:mainColor,
+        color:basicColor,
       ),
     ),
   ),
   BottomNavigationBarItem(
     icon: Icon(
-      Icons.account_balance,
-      color: mainColor,
+      Icons.money_off,
+      color: basicColor,
     ),
     title: Text(
       'currency',
       style: TextStyle(
-        color: mainColor,
+        color: basicColor,
       ),
     ),
   ),
@@ -88,49 +88,49 @@ List<BottomNavyBarItem> itemsBottomNavyBar=[
   BottomNavyBarItem(
 
     icon: Icon(
-      FontAwesomeIcons.rulerVertical,
-      color: mainColor,
+      Icons.mode_edit,
+      color: basicColor,
     ),
     title: Text(
       'Length',
       style: TextStyle(
-        color:mainColor,
+        color:basicColor,
       ),
     ),
   ),
   BottomNavyBarItem(
     icon: Icon(
       Icons.fitness_center,
-      color: mainColor,
+      color: basicColor,
     ),
     title: Text(
       'weight',
       style: TextStyle(
-        color: mainColor,
+        color: basicColor,
       ),
     ),
   ),
   BottomNavyBarItem(
     icon: Icon(
       Icons.access_time,
-      color: mainColor,
+      color: basicColor,
     ),
     title: Text(
       'time',
       style: TextStyle(
-        color:mainColor,
+        color:basicColor,
       ),
     ),
   ),
  BottomNavyBarItem(
     icon: Icon(
       Icons.account_balance,
-      color: mainColor,
+      color: basicColor,
     ),
     title: Text(
       'currency',
       style: TextStyle(
-        color: mainColor,
+        color: basicColor,
       ),
     ),
   ),
@@ -141,7 +141,7 @@ List<TabItem> items = [
 TabItem(
 icon: Icon(
 FontAwesomeIcons.rulerVertical,
-color: mainColor,
+color: basicColor,
 ),
 title:
 'Length',
@@ -150,7 +150,7 @@ title:
 TabItem(
 icon: Icon(
 Icons.fitness_center,
-color: mainColor,
+color: basicColor,
 ),
 title:
 'weight',
@@ -158,8 +158,8 @@ title:
 ),
 TabItem(
 icon: Icon(
-Icons.access_time,
-color: mainColor,
+Icons.cloud_circle,
+color: basicColor,
 ),
 title:
 'time',
@@ -178,7 +178,7 @@ title: 'currency',
 BoxDecoration boxDecoration = BoxDecoration(
   color: Colors.white,
   border: Border.all(
-    color: mainColor,
+    color: basicColor,
     width: 1,
   ),
   borderRadius: BorderRadius.all(
